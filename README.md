@@ -4,6 +4,7 @@ A collection of my solutions for mastering data structures and algorithms, focus
 
 ## Table of Contents
 1. [Warmup Materials](#warmup-materials)
+2. [How to run a file?](#how-to-run-a-file?)
 
 ## 1. Warmup Materials
 
@@ -34,3 +35,17 @@ After this, you should understand:
   - Big O Notation: **O(f(n))**
   - Omega Notation: **Ω(f(n))**
   - Theta Notation: **θ(f(n))**
+
+## How to run a file?
+1. Open terminal
+2. Change directory to the file location
+3. Run command `nodemon <file-name>.ts`, for example for file `chatAt.ts`:
+```bash
+$ nodemon charAt.ts 
+[nodemon] 3.1.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: ts,json
+[nodemon] starting `ts-node charAt.ts`
+Hello World
+```
