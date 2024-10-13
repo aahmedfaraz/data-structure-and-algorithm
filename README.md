@@ -143,3 +143,81 @@ Following the the methods available with both strings and arrays.
 - **`includes`**
 - **`indexOf`**
 - **`lastIndexOf`**
+
+# Regular Expressions (Regex)
+
+Here's a quick guide to regular expressions (regex) in JavaScript with examples to get you started:
+
+### Basics
+
+- **Literal characters**: `/abc/` matches the substring "abc".
+- **Special characters** (need to be escaped with `\`):
+  - `.`: Any character except newline.
+  - `\d`: Any digit (0-9).
+  - `\D`: Any non-digit.
+  - `\w`: Any word character (alphanumeric + underscore).
+  - `\W`: Any non-word character.
+  - `\s`: Any whitespace character.
+  - `\S`: Any non-whitespace character.
+  - `\b`: Word boundary.
+  - `\B`: Non-word boundary.
+  - `^`: Start of a string.
+  - `$`: End of a string.
+
+### Quantifiers
+
+- `*`: 0 or more times.
+- `+`: 1 or more times.
+- `?`: 0 or 1 time.
+- `{n}`: Exactly n times.
+- `{n,}`: At least n times.
+- `{n,m}`: Between n and m times.
+
+### Flags
+
+- `g`: Global match (find all matches, not just the first).
+- `i`: Case-insensitive.
+- `m`: Multiline mode.
+
+### Examples
+
+1. **Simple match**:
+
+   ```javascript
+   const str = "Hello World";
+   const regex = /Hello/;
+   regex.test(str); // true
+   ```
+
+2. **Matching digits**:
+
+   ```javascript
+   const str = "I have 2 apples";
+   const regex = /\d/;
+   str.match(regex); // ["2"]
+   ```
+
+3. **Replacing with regex**:
+
+   ```javascript
+   const str = "foo bar baz";
+   const result = str.replace(/bar/, "qux");
+   console.log(result); // "foo qux baz"
+   ```
+
+4. **Global match**:
+
+   ```javascript
+   const str = "test1 test2 test3";
+   const regex = /\d/g;
+   str.match(regex); // ["1", "2", "3"]
+   ```
+
+5. **Word boundary example**:
+   ```javascript
+   const str = "word boundary test";
+   const regex = /\btest\b/;
+   regex.test(str); // true
+   ```
+
+You can test your regex on websites like [regex101](https://regex101.com/) for instant feedback.
