@@ -8,16 +8,15 @@ A collection of my solutions for mastering data structures and algorithms, focus
 2. [How to Run a File](#2-how-to-run-a-file)
 3. [String Methods](#string-methods)
 4. [Array Methods](#array-methods)
-   - [Mutator Methods](#mutator-methods-modify-the-array)
-   - [Accessor Methods](#accessor-methods-do-not-modify-the-array-return-a-new-value)
-   - [Iteration Methods](#iteration-methods-work-on-each-element-of-the-array)
+   - Mutator Methods
+   - Accessor Methods
+   - Iteration Methods
 5. [Common Methods Between String and Array](#common-methods-between-string-and-array)
 6. [Regular Expressions (Regex)](#regular-expressions-regex)
-   - [Basics](#basics)
-   - [Quantifiers](#quantifiers)
-   - [Flags](#flags)
-   - [Examples](#examples)
-
+   - Basics
+   - Quantifiers
+   - Flags
+   - Examples
 
 ## 1. Warmup Materials
 
