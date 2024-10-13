@@ -2,10 +2,23 @@
 
 A collection of my solutions for mastering data structures and algorithms, focused on efficient implementation and clear documentation.
 
+Here’s an updated Table of Contents for your document:
+
 ## Table of Contents
 
-1. [Warmup Materials](#warmup-materials)
-2. [How to run a file?](#how-to-run-a-file?)
+1. [Warmup Materials](#1-warmup-materials)
+2. [How to Run a File](#2-how-to-run-a-file)
+3. [String Methods](#3-string-methods)
+4. [Array Methods](#4-array-methods)
+   - [Mutator Methods](#mutator-methods)
+   - [Accessor Methods](#accessor-methods)
+   - [Iteration Methods](#iteration-methods)
+5. [Common Methods Between String and Array](#5-common-methods-between-string-and-array)
+6. [Regular Expressions (Regex)](#6-regular-expressions-regex)
+   - [Basics](#basics)
+   - [Quantifiers](#quantifiers)
+   - [Flags](#flags)
+   - [Examples](#examples)
 
 ## 1. Warmup Materials
 
