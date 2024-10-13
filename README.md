@@ -139,7 +139,7 @@ This covers the core array methods in JavaScript with a one-line description of 
 
 Following the the methods available with both strings and arrays.
 
-- `concat`
-- `includes`
-- `indexOf`
-- `lastIndexOf`
+- **`concat`**
+- **`includes`**
+- **`indexOf`**
+- **`lastIndexOf`**
