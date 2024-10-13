@@ -3,6 +3,7 @@
 A collection of my solutions for mastering data structures and algorithms, focused on efficient implementation and clear documentation.
 
 ## Table of Contents
+
 1. [Warmup Materials](#warmup-materials)
 2. [How to run a file?](#how-to-run-a-file?)
 
@@ -37,11 +38,13 @@ After this, you should understand:
   - Theta Notation: **θ(f(n))**
 
 ## How to run a file?
+
 1. Open terminal
 2. Change directory to the file location
 3. Run command `nodemon <file-name>.ts`, for example for file `chatAt.ts`:
+
 ```bash
-$ nodemon charAt.ts 
+$ nodemon charAt.ts
 [nodemon] 3.1.0
 [nodemon] to restart at any time, enter `rs`
 [nodemon] watching path(s): *.*
@@ -51,6 +54,7 @@ Hello World
 ```
 
 # String Methods
+
 JavaScript provides a variety of string methods. Here are the most commonly used ones:
 
 1. **charAt()** - Returns the character at a specified index.
@@ -83,10 +87,58 @@ JavaScript provides a variety of string methods. Here are the most commonly used
 These are the primary string methods in JavaScript, but other built-in functions, like regular expression-based methods, can also work with strings.
 
 # Array Methods
-Coming soon...
+
+JavaScript provides a wide range of array methods. Here are the commonly used ones:
+
+### 1. **Mutator Methods (Modify the array):**
+
+- `push()`
+- `pop()`
+- `shift()`
+- `unshift()`
+- `splice()`
+- `sort()`
+- `reverse()`
+- `fill()`
+- `copyWithin()`
+
+### 2. **Accessor Methods (Do not modify the array, return a new value):**
+
+- `concat()`
+- `slice()`
+- `includes()`
+- `indexOf()`
+- `lastIndexOf()`
+- `join()`
+- `toString()`
+- `toLocaleString()`
+- `at()`
+
+### 3. **Iteration Methods (Work on each element of the array):**
+
+- `forEach()`
+- `map()`
+- `filter()`
+- `reduce()`
+- `reduceRight()`
+- `every()`
+- `some()`
+- `find()`
+- `findIndex()`
+- `findLast()`
+- `findLastIndex()`
+- `flat()`
+- `flatMap()`
+- `entries()`
+- `keys()`
+- `values()`
+
+In total, there are over **30 array methods** in JavaScript.
 
 ## Common methods between String and Array
+
 Following the the methods available with both strings and arrays.
+
 - `concat`
 - `includes`
 - `indexOf`
