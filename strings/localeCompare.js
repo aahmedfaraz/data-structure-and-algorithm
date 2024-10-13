@@ -27,4 +27,3 @@ const options = { sensitivity: 'base' }; // Ignores case and diacritics
 
 console.log("café".localeCompare("cafe", 'en', options)); // Output: 0 (considered equal)
 console.log("café".localeCompare("Café", 'en', options)); // Output: 0 (case is ignored)
-
