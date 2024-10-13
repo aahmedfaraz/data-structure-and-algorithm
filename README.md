@@ -57,83 +57,83 @@ Hello World
 
 JavaScript provides a variety of string methods. Here are the most commonly used ones:
 
-1. `charAt()` - Returns the character at a specified index.
-2. `charCodeAt()` - Returns the Unicode of the character at a specified index.
-3. `concat()` - Joins two or more strings.
-4. `includes()` - Checks if a string contains a specified substring.
-5. `endsWith()` - Checks if a string ends with a specified substring.
-6. `indexOf()` - Returns the index of the first occurrence of a specified substring.
-7. `lastIndexOf()` - Returns the index of the last occurrence of a specified substring.
-8. `localeCompare()` - Compares two strings in the current locale.
-9. `match()` - Searches a string for a match using a regular expression.
-10. `matchAll()` - Returns all matches of a string against a regular expression.
-11. `padEnd()` - Pads the current string with another string to a certain length (end).
-12. `padStart()` - Pads the current string with another string to a certain length (start).
-13. `repeat()` - Returns a new string with a specified number of copies of an existing string.
-14. `replace()` - Replaces a specified value with another value in a string.
-15. `replaceAll()` - Replaces all occurrences of a specified value.
-16. `search()` - Searches a string for a match using a regular expression and returns its index.
-17. `slice()` - Extracts a part of a string and returns it as a new string.
-18. `split()` - Splits a string into an array of substrings.
-19. `startsWith()` - Checks if a string starts with a specified substring.
-20. `substring()` - Extracts characters between two specified indexes.
-21. `toLowerCase()` - Converts the string to lowercase.
-22. `toUpperCase()` - Converts the string to uppercase.
-23. `trim()` - Removes whitespace from both sides of a string.
-24. `trimEnd()` - Removes whitespace from the end of a string.
-25. `trimStart()` - Removes whitespace from the start of a string.
-26. `valueOf()` - Returns the primitive value of a string.
+1. **`charAt()`** - Returns the character at a specified index.
+2. **`charCodeAt()`** - Returns the Unicode of the character at a specified index.
+3. **`concat()`** - Joins two or more strings.
+4. **`includes()`** - Checks if a string contains a specified substring.
+5. **`endsWith()`** - Checks if a string ends with a specified substring.
+6. **`indexOf()`** - Returns the index of the first occurrence of a specified substring.
+7. **`lastIndexOf()`** - Returns the index of the last occurrence of a specified substring.
+8. **`localeCompare()`** - Compares two strings in the current locale.
+9. **`match()`** - Searches a string for a match using a regular expression.
+10. **`matchAll()`** - Returns all matches of a string against a regular expression.
+11. **`padEnd()`** - Pads the current string with another string to a certain length (end).
+12. **`padStart()`** - Pads the current string with another string to a certain length (start).
+13. **`repeat()`** - Returns a new string with a specified number of copies of an existing string.
+14. **`replace()`** - Replaces a specified value with another value in a string.
+15. **`replaceAll()`** - Replaces all occurrences of a specified value.
+16. **`search()`** - Searches a string for a match using a regular expression and returns its index.
+17. **`slice()`** - Extracts a part of a string and returns it as a new string.
+18. **`split()`** - Splits a string into an array of substrings.
+19. **`startsWith()`** - Checks if a string starts with a specified substring.
+20. **`substring()`** - Extracts characters between two specified indexes.
+21. **`toLowerCase()`** - Converts the string to lowercase.
+22. **`toUpperCase()`** - Converts the string to uppercase.
+23. **`trim()`** - Removes whitespace from both sides of a string.
+24. **`trimEnd()`** - Removes whitespace from the end of a string.
+25. **`trimStart()`** - Removes whitespace from the start of a string.
+26. **`valueOf()`** - Returns the primitive value of a string.
 
 These are the primary string methods in JavaScript, but other built-in functions, like regular expression-based methods, can also work with strings.
 
 # Array Methods
 
-JavaScript provides a wide range of array methods. Here are the commonly used ones:
+Here’s a list of JavaScript array methods with brief explanations:
 
 ### 1. **Mutator Methods (Modify the array):**
 
-- `push()`
-- `pop()`
-- `shift()`
-- `unshift()`
-- `splice()`
-- `sort()`
-- `reverse()`
-- `fill()`
-- `copyWithin()`
+- **`push()`**: Adds one or more elements to the end of an array.
+- **`pop()`**: Removes the last element from an array.
+- **`shift()`**: Removes the first element from an array.
+- **`unshift()`**: Adds one or more elements to the beginning of an array.
+- **`splice()`**: Adds, removes, or replaces elements in an array.
+- **`sort()`**: Sorts the elements of an array in place.
+- **`reverse()`**: Reverses the order of the elements in an array.
+- **`fill()`**: Fills the array with a static value from a start index to an end index.
+- **`copyWithin()`**: Copies part of the array to another location within the same array.
 
 ### 2. **Accessor Methods (Do not modify the array, return a new value):**
 
-- `concat()`
-- `slice()`
-- `includes()`
-- `indexOf()`
-- `lastIndexOf()`
-- `join()`
-- `toString()`
-- `toLocaleString()`
-- `at()`
+- **`concat()`**: Merges two or more arrays into a new array.
+- **`slice()`**: Returns a shallow copy of a portion of the array.
+- **`includes()`**: Checks if an array includes a certain element.
+- **`indexOf()`**: Returns the first index of a specified element, or -1 if not found.
+- **`lastIndexOf()`**: Returns the last index of a specified element, or -1 if not found.
+- **`join()`**: Joins all elements of an array into a string.
+- **`toString()`**: Converts the array into a string.
+- **`toLocaleString()`**: Converts the array into a localized string.
+- **`at()`**: Returns the element at the specified index (supports negative indexing).
 
 ### 3. **Iteration Methods (Work on each element of the array):**
 
-- `forEach()`
-- `map()`
-- `filter()`
-- `reduce()`
-- `reduceRight()`
-- `every()`
-- `some()`
-- `find()`
-- `findIndex()`
-- `findLast()`
-- `findLastIndex()`
-- `flat()`
-- `flatMap()`
-- `entries()`
-- `keys()`
-- `values()`
+- **`forEach()`**: Executes a function once for each array element (no return value).
+- **`map()`**: Creates a new array with the results of calling a function on every element.
+- **`filter()`**: Creates a new array with all elements that pass a test.
+- **`reduce()`**: Reduces the array to a single value, executing a reducer function on each element.
+- **`reduceRight()`**: Same as `reduce()` but starts from the last element.
+- **`every()`**: Checks if all elements pass a test.
+- **`some()`**: Checks if at least one element passes a test.
+- **`find()`**: Returns the first element that satisfies a test function.
+- **`findIndex()`**: Returns the index of the first element that satisfies a test function.
+- **`findLast()`**: Returns the last element that satisfies a test function.
+- **`findLastIndex()`**: Returns the index of the last element that satisfies a test function.
+- **`flat()`**: Flattens nested arrays into a single array.
+- **`flatMap()`**: Maps and flattens the array in one step.
+- **`entries()`**: Returns an array iterator object with key-value pairs.
+- **`keys()`**: Returns an array iterator with the keys (indices) for each element.
+- **`values()`**: Returns an array iterator with the values of each element.
 
-In total, there are over **30 array methods** in JavaScript.
+This covers the core array methods in JavaScript with a one-line description of each.
 
 ## Common methods between String and Array
 
